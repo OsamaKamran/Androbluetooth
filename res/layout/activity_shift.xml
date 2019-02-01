@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="2"
+    android:layout_row="2"
+    android:background="#c9eec8"
+    tools:context="com.example.dellcom.androbluetooth.shift">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:background="#e5ad26"
+        android:onClick="arrows"
+        app:srcCompat="@drawable/keyicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="#c1a78a"
+        android:onClick="sms"
+        app:srcCompat="@drawable/sms" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:background="#e99761"
+        android:onClick="voice"
+        app:srcCompat="@drawable/voice" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:background="#cecece"
+        android:onClick="accel"
+        app:srcCompat="@drawable/accelerometer" />
+
+</GridLayout>

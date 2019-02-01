@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellcom.androbluetooth.help">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/editText3"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:focusable="false"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:inputType="text"
+                android:text="ArrowKeys"
+                android:textAlignment="center"
+                android:textColor="#e5ad26"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+            <TextView
+                android:id="@+id/editText2"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="These arrow keys are usually used to control bluetooth control car. You can use it for any purpose you want. Just be aware of Strings Keywords that are send over BT on each arrow touch.
+                Keywords On Touch Down:-
+                'forward', 'back', 'left', 'right'
+                Keywords On Touch Up:-
+                    'stop'"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+            <TextView
+                android:id="@+id/editText"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:focusable="false"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:inputType="textPersonName"
+                android:text="Terminal"
+                android:textAlignment="center"
+                android:textColor="#FFC1A78A"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/editText4"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:focusable="false"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="Use Terminal to type any Keyword and send it over BT." />
+
+            <TextView
+                android:id="@+id/editText5"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:focusable="false"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:inputType="textPersonName"
+                android:text="VoiceControl"
+                android:textAlignment="center"
+                android:textColor="#FFE99761"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editText6"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:focusable="false"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="Tap on the mic and speak. You may need Internet.
+What you speak is send over BT." />
+
+            <TextView
+                android:id="@+id/editText7"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:focusable="false"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:inputType="textPersonName"
+                android:text="Accelerometer"
+                android:textAlignment="center"
+                android:textColor="#cecece"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/editText8"
+                style="@android:style/Widget.DeviceDefault.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="This could be used if your android support accelerometer.
+                        Turn off tilt mode in drop down menu(important).
+                        Keywords Send Over Tilt:-
+                        'Up and Down tilt ----> 'forward' ',   'Right and Left tilt ----> 'right' ',  'no tilt ----> 'stop' '" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
